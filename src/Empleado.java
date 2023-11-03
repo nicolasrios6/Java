@@ -7,14 +7,14 @@ public class Empleado {
     double montoAntiguedad, sueldoBasico;
     List<BonoSueldo> bonos;
 
-    public Empleado (String nombreEmpleado, long cuil, int anioIngreso, double montoAntiguedad, double sueldoBasico, List<BonoSueldo> bonos) {
+   /* public Empleado (String nombreEmpleado, long cuil, int anioIngreso, double montoAntiguedad, double sueldoBasico, List<BonoSueldo> bonos) {
         this.nombreEmpleado = nombreEmpleado;
         this.cuil = cuil;
         this.anioIngreso = anioIngreso;
         this.montoAntiguedad = montoAntiguedad;
         this.sueldoBasico = sueldoBasico;
         this.bonos = bonos;
-    }
+    }*/
 
     public void setNombreEmpleado(String nombreEmpleado) {
         this.nombreEmpleado = nombreEmpleado;

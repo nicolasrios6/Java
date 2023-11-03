@@ -3,12 +3,12 @@ public class BonoSueldo {
     private int mesLiquidacion, anioLiquidacion;
     private double montoLiquidacion;
 
-    public BonoSueldo (Empleado empleado, int mesLiquidacion, int anioLiquidacion, double montoLiquidacion) {
+    /*public BonoSueldo (Empleado empleado, int mesLiquidacion, int anioLiquidacion, double montoLiquidacion) {
         this.empleado = empleado;
         this.mesLiquidacion = mesLiquidacion;
         this.anioLiquidacion = anioLiquidacion;
         this.montoLiquidacion = montoLiquidacion;
-    }
+    }*/
 
     public Empleado getEmpleado() {
         return empleado;
